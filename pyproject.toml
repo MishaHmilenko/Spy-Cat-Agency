@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "spy-cat-agency"
+version = "0.1.0"
+description = ""
+authors = ["Misha <290819allo@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.115.5"
+dishka = "^1.4.0"
+sqlalchemy = "^2.0.36"
+aiohttp = "^3.11.1"
+alembic = "^1.14.0"
+uvicorn = "^0.32.0"
+asyncpg = "^0.30.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
